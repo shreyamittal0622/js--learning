@@ -1,7 +1,7 @@
 let score="33"
 
-console.log(typeof(score))
-let inValue= Number(score)
+console.log(typeof(score)) //string
+let inValue= Number(score)   // number
 console.log(typeof(inValue))
 
 let val="123abc"

@@ -12,3 +12,17 @@ console.log(obj_another) //{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 
 console.log(Object.keys(obj))
 //we can even access values and entries in same way 
+
+
+const regularUser ={
+  email: "shreya@gmail.com",
+  fullname:{
+    userfullname: {
+      firstname:"shreya",
+      lastname:"mittal"
+    }
+  }
+  
+}
+
+console.log(reularUser.fullname.userfullname.firstname);
